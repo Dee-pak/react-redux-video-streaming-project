@@ -7,6 +7,7 @@ import StreamList from './streams/StreamList'
 import StreamShow from './streams/StreamShow'
 import Header from './Header'
 import history from '../history'
+import Footer from "./Footer"
 
 const App = () => {
   return (
@@ -23,6 +24,9 @@ const App = () => {
           </Switch>
         </div>
       </Router>
+      <br/>
+      <hr/>
+      <Footer/>
     </div>)
 }
 

@@ -4,8 +4,8 @@ import GoogleAuth from "./GoogleAuth"
 
 const Header = () => {
   return (
-    <div className={"ui secondary pointing menu"}>
-      <Link to="/" className={"item"}>
+    <div className={"ui menu"} style={{height : '50px'}}>
+      <Link to="/" className={"header item"}>
         iStream
       </Link>
       <div className={"right menu"}>
